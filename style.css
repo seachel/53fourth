@@ -8,6 +8,11 @@ body
 	margin: 0px;
 }
 
+table
+{
+	font-size: 22px;
+}
+
 figcaption
 {
 	font-size: 12px;
@@ -63,7 +68,7 @@ figcaption
 
 .note
 {
-	font-size: 10pt;
+	font-size: 15pt;
 }
 
 .photo-row, .photo-row-med
