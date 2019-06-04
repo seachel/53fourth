@@ -46,7 +46,7 @@ figcaption
 	padding: 20px;
 }
 
-.container img
+.container > img
 {
 	width: 40%;
 	height: auto;
@@ -64,4 +64,22 @@ figcaption
 .note
 {
 	font-size: 10pt;
+}
+
+.photo-row, .photo-row-med
+{
+	display: flex;
+	justify-content: center;
+}
+
+.photo-row img
+{
+	height: 275px;
+	padding: 20px;
+}
+
+.photo-row-med img
+{
+	height: 350px;
+	padding: 20px;
 }
